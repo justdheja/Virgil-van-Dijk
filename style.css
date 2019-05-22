@@ -1,15 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 0.85rem;
-    background: #8E0E00;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+    background: #2b5876;
+    /* fallback for old browsers uigradient.com/seablue*/
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1F1C18, #8E0E00);
+    background: linear-gradient(to right, #4e4376, #2b5876);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
 }
 
 .virgil-profile {
@@ -19,7 +18,7 @@ body {
     margin-bottom: 10%;
     width: 65%;
     height: 500px;
-    box-shadow: 10px 10px black;
+    box-shadow: 10px 10px rgb(0, 0, 0);
 }
 
 .profile-picture {
@@ -35,7 +34,7 @@ body {
 
 .profile-bio {
     height: 100%;
-    background-color: #f0f0f0;
+    background-color: #d7e0e7;
     padding: 5% 20px;
 }
 
@@ -61,12 +60,22 @@ body {
 
 .profile-bio img {
     width: 7.5%;
-    transition: all 0.5s;
+    transition: all .5s
 }
 
-.profile-bio img:hover{
+.profile-bio img:hover {
     width: 10%;
 }
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #54ade9;
+}
+
 
 @media screen and (max-width: 932px) {
 
